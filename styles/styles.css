@@ -1,0 +1,68 @@
+body {
+    /* font-family: 'Oswald', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    font-size: 12px;
+    padding: 20px;
+    text-align: center;
+}
+
+#game-intro {
+    /* float: left; */
+    border: 2px solid orangered;
+}
+
+#game-board {
+    /* float: right; */
+    border: 2px solid green;
+}
+
+h1, button {
+        font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    color: rgb(6, 71, 99);
+}
+
+#game-intro h1 {
+    /* font-family: 'Oswald', sans-serif; */
+    font-weight: 600;
+    font-size: 5em;
+}
+
+#game-intro p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    /* width: 300px; */
+}
+
+div {
+    /* text-align: center; */
+    /* line-height: 18px; */
+    padding: 10px;
+    margin: 10px;
+}
+
+canvas {
+    border: 2px solid darkblue;
+}
+
+button {
+    width: 200px;
+    padding: 8px;
+    color: #eee;
+    font-size: 2em;;
+    background-color: rgb(117, 168, 190);
+    /* border: 2px solid #000; */
+    border: none;
+    cursor: pointer;
+    /* font-weight: 400; */
+}
+
+button:hover {
+    background-color: rgb(178, 208, 221);
+    color:rgb(6, 71, 99);
+}
+
+
